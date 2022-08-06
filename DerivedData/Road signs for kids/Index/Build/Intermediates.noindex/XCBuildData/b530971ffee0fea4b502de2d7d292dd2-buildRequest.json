@@ -1,0 +1,61 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "04c64314ad6ece09ee3fcf6877a8571ab3ad55b876232e3f36630f6a134a6ff4"
+    }
+  ],
+  "containerPath" : "/Users/ageres7/Documents/iOS Разработчик с нуля за 20 недель/Pet Projects/Road signs for kids/Road signs for kids.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/ageres7/Documents/iOS Разработчик с нуля за 20 недель/Pet Projects/Road signs for kids/DerivedData/Road signs for kids/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/ageres7/Documents/iOS Разработчик с нуля за 20 недель/Pet Projects/Road signs for kids/DerivedData/Road signs for kids/Index/Build/Products",
+      "derivedDataPath" : "/Users/ageres7/Documents/iOS Разработчик с нуля за 20 недель/Pet Projects/Road signs for kids/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/ageres7/Documents/iOS Разработчик с нуля за 20 недель/Pet Projects/Road signs for kids/DerivedData/Road signs for kids/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/ageres7/Documents/iOS Разработчик с нуля за 20 недель/Pet Projects/Road signs for kids/DerivedData/Road signs for kids/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/ageres7/Documents/iOS Разработчик с нуля за 20 недель/Pet Projects/Road signs for kids/DerivedData/Road signs for kids/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/ageres7/Documents/iOS Разработчик с нуля за 20 недель/Pet Projects/Road signs for kids/DerivedData/Road signs for kids/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
