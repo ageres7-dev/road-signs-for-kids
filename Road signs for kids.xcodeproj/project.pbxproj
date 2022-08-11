@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B45A1CD289E6E3E00EE4E98 /* Road_signs_for_kidsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B45A1CC289E6E3E00EE4E98 /* Road_signs_for_kidsApp.swift */; };
+		3B45A1CF289E6E3E00EE4E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B45A1CE289E6E3E00EE4E98 /* ContentView.swift */; };
+		3B45A1D1289E6E3F00EE4E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B45A1D0289E6E3F00EE4E98 /* Assets.xcassets */; };
+		3B45A1D4289E6E3F00EE4E98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B45A1D3289E6E3F00EE4E98 /* Preview Assets.xcassets */; };
+		3B45A1DD289E6F0D00EE4E98 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B45A1DC289E6F0D00EE4E98 /* PageView.swift */; };
+		3B45A1E0289E73F700EE4E98 /* SignModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B45A1DF289E73F700EE4E98 /* SignModel.swift */; };
+		3B50550428A59A310080A2AD /* 1.1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B5054FB28A59A2F0080A2AD /* 1.1.m4a */; };
+		3B50550528A59A310080A2AD /* 1.3.1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B5054FC28A59A2F0080A2AD /* 1.3.1.m4a */; };
+		3B50550628A59A310080A2AD /* 1.3.2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B5054FD28A59A300080A2AD /* 1.3.2.m4a */; };
+		3B50550728A59A310080A2AD /* 1.6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B5054FE28A59A300080A2AD /* 1.6.m4a */; };
+		3B50550828A59A310080A2AD /* 1.5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B5054FF28A59A300080A2AD /* 1.5.m4a */; };
+		3B50550928A59A310080A2AD /* 1.2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B50550028A59A300080A2AD /* 1.2.m4a */; };
+		3B50550A28A59A310080A2AD /* 1.9.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B50550128A59A300080A2AD /* 1.9.m4a */; };
+		3B50550B28A59A310080A2AD /* 1.7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B50550228A59A310080A2AD /* 1.7.m4a */; };
+		3B50550C28A59A310080A2AD /* 1.8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B50550328A59A310080A2AD /* 1.8.m4a */; };
+		3B856153289F0CCA00644582 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B856152289F0CCA00644582 /* SpeechService.swift */; };
+		3BBA143E289EB1C000BBA1CD /* SignCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBA143D289EB1C000BBA1CD /* SignCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B45A1C9289E6E3E00EE4E98 /* Road signs for kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Road signs for kids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B45A1CC289E6E3E00EE4E98 /* Road_signs_for_kidsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Road_signs_for_kidsApp.swift; sourceTree = "<group>"; };
+		3B45A1CE289E6E3E00EE4E98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B45A1D0289E6E3F00EE4E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B45A1D3289E6E3F00EE4E98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B45A1DC289E6F0D00EE4E98 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		3B45A1DF289E73F700EE4E98 /* SignModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignModel.swift; sourceTree = "<group>"; };
+		3B5054FB28A59A2F0080A2AD /* 1.1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.1.m4a; sourceTree = "<group>"; };
+		3B5054FC28A59A2F0080A2AD /* 1.3.1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.3.1.m4a; sourceTree = "<group>"; };
+		3B5054FD28A59A300080A2AD /* 1.3.2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.3.2.m4a; sourceTree = "<group>"; };
+		3B5054FE28A59A300080A2AD /* 1.6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.6.m4a; sourceTree = "<group>"; };
+		3B5054FF28A59A300080A2AD /* 1.5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.5.m4a; sourceTree = "<group>"; };
+		3B50550028A59A300080A2AD /* 1.2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.2.m4a; sourceTree = "<group>"; };
+		3B50550128A59A300080A2AD /* 1.9.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.9.m4a; sourceTree = "<group>"; };
+		3B50550228A59A310080A2AD /* 1.7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.7.m4a; sourceTree = "<group>"; };
+		3B50550328A59A310080A2AD /* 1.8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.8.m4a; sourceTree = "<group>"; };
+		3B856152289F0CCA00644582 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		3BBA143D289EB1C000BBA1CD /* SignCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B45A1C6289E6E3E00EE4E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B45A1C0289E6E3E00EE4E98 = {
+			isa = PBXGroup;
+			children = (
+				3B45A1CB289E6E3E00EE4E98 /* Road signs for kids */,
+				3B45A1CA289E6E3E00EE4E98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B45A1CA289E6E3E00EE4E98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B45A1C9289E6E3E00EE4E98 /* Road signs for kids.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B45A1CB289E6E3E00EE4E98 /* Road signs for kids */ = {
+			isa = PBXGroup;
+			children = (
+				3B5054C428A5922C0080A2AD /* Sounds */,
+				3B45A1CC289E6E3E00EE4E98 /* Road_signs_for_kidsApp.swift */,
+				3B45A1CE289E6E3E00EE4E98 /* ContentView.swift */,
+				3B856152289F0CCA00644582 /* SpeechService.swift */,
+				3B45A1DC289E6F0D00EE4E98 /* PageView.swift */,
+				3BBA143D289EB1C000BBA1CD /* SignCard.swift */,
+				3B45A1DE289E73E000EE4E98 /* Models */,
+				3B45A1D0289E6E3F00EE4E98 /* Assets.xcassets */,
+				3B45A1D2289E6E3F00EE4E98 /* Preview Content */,
+			);
+			path = "Road signs for kids";
+			sourceTree = "<group>";
+		};
+		3B45A1D2289E6E3F00EE4E98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B45A1D3289E6E3F00EE4E98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B45A1DE289E73E000EE4E98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B45A1DF289E73F700EE4E98 /* SignModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3B5054C428A5922C0080A2AD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3B5054FB28A59A2F0080A2AD /* 1.1.m4a */,
+				3B50550028A59A300080A2AD /* 1.2.m4a */,
+				3B5054FC28A59A2F0080A2AD /* 1.3.1.m4a */,
+				3B5054FD28A59A300080A2AD /* 1.3.2.m4a */,
+				3B5054FF28A59A300080A2AD /* 1.5.m4a */,
+				3B5054FE28A59A300080A2AD /* 1.6.m4a */,
+				3B50550228A59A310080A2AD /* 1.7.m4a */,
+				3B50550328A59A310080A2AD /* 1.8.m4a */,
+				3B50550128A59A300080A2AD /* 1.9.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B45A1C8289E6E3E00EE4E98 /* Road signs for kids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B45A1D7289E6E3F00EE4E98 /* Build configuration list for PBXNativeTarget "Road signs for kids" */;
+			buildPhases = (
+				3B45A1C5289E6E3E00EE4E98 /* Sources */,
+				3B45A1C6289E6E3E00EE4E98 /* Frameworks */,
+				3B45A1C7289E6E3E00EE4E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Road signs for kids";
+			productName = "Road signs for kids";
+			productReference = 3B45A1C9289E6E3E00EE4E98 /* Road signs for kids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B45A1C1289E6E3E00EE4E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3B45A1C8289E6E3E00EE4E98 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3B45A1C4289E6E3E00EE4E98 /* Build configuration list for PBXProject "Road signs for kids" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B45A1C0289E6E3E00EE4E98;
+			productRefGroup = 3B45A1CA289E6E3E00EE4E98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B45A1C8289E6E3E00EE4E98 /* Road signs for kids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B45A1C7289E6E3E00EE4E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B50550A28A59A310080A2AD /* 1.9.m4a in Resources */,
+				3B50550928A59A310080A2AD /* 1.2.m4a in Resources */,
+				3B50550728A59A310080A2AD /* 1.6.m4a in Resources */,
+				3B50550628A59A310080A2AD /* 1.3.2.m4a in Resources */,
+				3B50550428A59A310080A2AD /* 1.1.m4a in Resources */,
+				3B45A1D4289E6E3F00EE4E98 /* Preview Assets.xcassets in Resources */,
+				3B50550528A59A310080A2AD /* 1.3.1.m4a in Resources */,
+				3B50550C28A59A310080A2AD /* 1.8.m4a in Resources */,
+				3B50550B28A59A310080A2AD /* 1.7.m4a in Resources */,
+				3B50550828A59A310080A2AD /* 1.5.m4a in Resources */,
+				3B45A1D1289E6E3F00EE4E98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B45A1C5289E6E3E00EE4E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B45A1CF289E6E3E00EE4E98 /* ContentView.swift in Sources */,
+				3B45A1E0289E73F700EE4E98 /* SignModel.swift in Sources */,
+				3BBA143E289EB1C000BBA1CD /* SignCard.swift in Sources */,
+				3B45A1CD289E6E3E00EE4E98 /* Road_signs_for_kidsApp.swift in Sources */,
+				3B45A1DD289E6F0D00EE4E98 /* PageView.swift in Sources */,
+				3B856153289F0CCA00644582 /* SpeechService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3B45A1D5289E6E3F00EE4E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B45A1D6289E6E3F00EE4E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B45A1D8289E6E3F00EE4E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Road signs for kids/Preview Content\"";
+				DEVELOPMENT_TEAM = RNER64Q73Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.ageres7.Road-signs-for-kids";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B45A1D9289E6E3F00EE4E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Road signs for kids/Preview Content\"";
+				DEVELOPMENT_TEAM = RNER64Q73Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.ageres7.Road-signs-for-kids";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B45A1C4289E6E3E00EE4E98 /* Build configuration list for PBXProject "Road signs for kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B45A1D5289E6E3F00EE4E98 /* Debug */,
+				3B45A1D6289E6E3F00EE4E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B45A1D7289E6E3F00EE4E98 /* Build configuration list for PBXNativeTarget "Road signs for kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B45A1D8289E6E3F00EE4E98 /* Debug */,
+				3B45A1D9289E6E3F00EE4E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B45A1C1289E6E3E00EE4E98 /* Project object */;
+}
