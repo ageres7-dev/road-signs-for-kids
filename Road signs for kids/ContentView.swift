@@ -9,27 +9,34 @@ import SwiftUI
 
 struct ContentView: View {
     
-    private let signs = SignModel.warningSigns
+    private let signCategories = [
+        SignRowModel.modelForPreview,
+        SignRowModel.modelForPreview,
+        SignRowModel.modelForPreview,
+        SignRowModel.modelForPreview,
+    ]
+    private let warningSigns = SignModel.warningSigns
     
     var body: some View {
-            TabView {
-                ForEach(signs) { sing in
-                    SignCard(model: sing)
-                        .padding(.bottom)
-                }
-                .onAppear {
-                    signs.forEach {
-                        print("\($0.numberSign)-\($0.title).")
+        NavigationView {
+            ScrollView {
+                LazyVStack(spacing: 0) {
+                    ForEach(signCategories, id: \.id) { category in
+                        NavigationLink {
+                            SignCarousel(signs: category.signs)
+                                
+                        } label: {
+                            SignRowView(signCategory: category, shadowRadius: 8)
+                                .foregroundColor(.primary)
+                                .padding(.horizontal, 16)
+                                .padding(.vertical, 8)
+                        }
                     }
                 }
-                    
             }
-//            .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-//            .padding()
-//            .frame(width: UIScreen.main.bounds.width, height: 200)
-            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never) )
-            .ignoresSafeArea()
-
+            .navigationTitle("Все знаки")
+            .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
 

@@ -25,6 +25,7 @@ struct SignCard: View {
                     Image(model.numberSign)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
+                        .shadow(radius: 4)
                         .padding(.horizontal, 30)
                         .padding(.bottom, 16)
                 }
@@ -44,7 +45,7 @@ struct SignCard: View {
             .padding()
         }
         .clipShape(
-            RoundedRectangle(cornerRadius: 25, style: .continuous)
+            RoundedRectangle(cornerRadius: 40, style: .continuous)
         )
         .shadow(radius: 20)
         .padding()
@@ -74,8 +75,6 @@ extension SignCard {
             print("enhancedVoice name ", enhancedVoice.name)
             speechService.selectedVoice = enhancedVoice
         }
-        
-//        print(voices)
 
         voices.forEach {
             print("name ", $0.name)
@@ -88,7 +87,7 @@ extension SignCard {
 struct SignCard_Previews: PreviewProvider {
     static var previews: some View {
         if #available(iOS 15.0, *) {
-            SignCard(model: SignModel.modelForPreview2)
+            SignCard(model: SignModel.modelForPreview)
                 .environmentObject(SpeechService.shared)
                 .preferredColorScheme(.light)
                 .previewInterfaceOrientation(.portrait)

@@ -49,12 +49,12 @@ extension SignModel {
         ),
         SignModel(
             numberSign: "1.3.1",
-            title: "Однопутная же­лезная дорога",
+            title: "Однопутная железная дорога",
             body: nil
         ),
         SignModel(
             numberSign: "1.3.2",
-            title: "Многопутная же­лезная дорога",
+            title: "Многопутная железная дорога",
             body: nil
         ),
         SignModel(
@@ -64,17 +64,17 @@ extension SignModel {
         ),
         SignModel(
             numberSign: "1.6",
-            title: "Пересечение рав­нозначных дорог",
+            title: "Пересечение равнозначных дорог",
             body: nil
         ),
         SignModel(
             numberSign: "1.7",
-            title: "Пересечение с круговым движени­ем",
+            title: "Пересечение с круговым движением",
             body: nil
         ),
         SignModel(
             numberSign: "1.8",
-            title: "Светофорное ре­гулирование",
+            title: "Светофорное регулирование",
             body: nil
         ),
         SignModel(

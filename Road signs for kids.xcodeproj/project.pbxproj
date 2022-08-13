@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B15C64128A77E7F00A21194 /* SignCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15C64028A77E7F00A21194 /* SignCarousel.swift */; };
+		3B1CB3A028A793AD00947A9B /* SignRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1CB39F28A793AD00947A9B /* SignRowView.swift */; };
+		3B1CB3A228A7955E00947A9B /* SignRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1CB3A128A7955E00947A9B /* SignRowModel.swift */; };
 		3B45A1CD289E6E3E00EE4E98 /* Road_signs_for_kidsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B45A1CC289E6E3E00EE4E98 /* Road_signs_for_kidsApp.swift */; };
 		3B45A1CF289E6E3E00EE4E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B45A1CE289E6E3E00EE4E98 /* ContentView.swift */; };
 		3B45A1D1289E6E3F00EE4E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B45A1D0289E6E3F00EE4E98 /* Assets.xcassets */; };
@@ -27,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B15C64028A77E7F00A21194 /* SignCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignCarousel.swift; sourceTree = "<group>"; };
+		3B1CB39F28A793AD00947A9B /* SignRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignRowView.swift; sourceTree = "<group>"; };
+		3B1CB3A128A7955E00947A9B /* SignRowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignRowModel.swift; sourceTree = "<group>"; };
 		3B45A1C9289E6E3E00EE4E98 /* Road signs for kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Road signs for kids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B45A1CC289E6E3E00EE4E98 /* Road_signs_for_kidsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Road_signs_for_kidsApp.swift; sourceTree = "<group>"; };
 		3B45A1CE289E6E3E00EE4E98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,9 +86,11 @@
 				3B5054C428A5922C0080A2AD /* Sounds */,
 				3B45A1CC289E6E3E00EE4E98 /* Road_signs_for_kidsApp.swift */,
 				3B45A1CE289E6E3E00EE4E98 /* ContentView.swift */,
+				3B1CB39F28A793AD00947A9B /* SignRowView.swift */,
+				3B15C64028A77E7F00A21194 /* SignCarousel.swift */,
+				3BBA143D289EB1C000BBA1CD /* SignCard.swift */,
 				3B856152289F0CCA00644582 /* SpeechService.swift */,
 				3B45A1DC289E6F0D00EE4E98 /* PageView.swift */,
-				3BBA143D289EB1C000BBA1CD /* SignCard.swift */,
 				3B45A1DE289E73E000EE4E98 /* Models */,
 				3B45A1D0289E6E3F00EE4E98 /* Assets.xcassets */,
 				3B45A1D2289E6E3F00EE4E98 /* Preview Content */,
@@ -102,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				3B45A1DF289E73F700EE4E98 /* SignModel.swift */,
+				3B1CB3A128A7955E00947A9B /* SignRowModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,12 +210,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1CB3A028A793AD00947A9B /* SignRowView.swift in Sources */,
+				3B15C64128A77E7F00A21194 /* SignCarousel.swift in Sources */,
 				3B45A1CF289E6E3E00EE4E98 /* ContentView.swift in Sources */,
 				3B45A1E0289E73F700EE4E98 /* SignModel.swift in Sources */,
 				3BBA143E289EB1C000BBA1CD /* SignCard.swift in Sources */,
 				3B45A1CD289E6E3E00EE4E98 /* Road_signs_for_kidsApp.swift in Sources */,
 				3B45A1DD289E6F0D00EE4E98 /* PageView.swift in Sources */,
 				3B856153289F0CCA00644582 /* SpeechService.swift in Sources */,
+				3B1CB3A228A7955E00947A9B /* SignRowModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
