@@ -10,6 +10,7 @@ import Foundation
 struct SignRowModel: Identifiable, Hashable {
     
     let id = UUID()
+    let fileName: String
     let imageName: String
     let title: String
     let signs: [SignModel]
@@ -18,6 +19,7 @@ struct SignRowModel: Identifiable, Hashable {
 extension SignRowModel {
     static var modelForPreview: SignRowModel {
         SignRowModel(
+            fileName: "1.WarningSigns",
             imageName: "1.1",
             title: "Предупреждающие знаки ",
             signs: SignModel.warningSigns
@@ -32,33 +34,51 @@ extension SignRowModel {
 extension SignRowModel {
     static var allSignsCategory: [SignRowModel] {[
         SignRowModel(
+            fileName: "1.WarningSigns",
             imageName: "1.1",
-            title: "Предупреждающие знаки ",
+            title: "Предупреждающие знаки",
             signs: SignModel.warningSigns
         ),
         SignRowModel(
-            imageName: "1.2",
-            title: "Предупреждающие знаки ",
+            fileName: "2.SignsOfPriority",
+            imageName: "2.1",
+            title: "Знаки приоритета",
             signs: SignModel.warningSigns
         ),
         SignRowModel(
-            imageName: "1.10",
-            title: "Предупреждающие знаки ",
+            fileName: "3.ProhibitionSigns",
+            imageName: "3.1",
+            title: "Запрещающие знаки",
             signs: SignModel.warningSigns
         ),
         SignRowModel(
-            imageName: "1.5",
-            title: "Предупреждающие знаки ",
+            fileName: "4.MandatorySigns",
+            imageName: "4.1",
+            title: "Предписывающие знаки",
             signs: SignModel.warningSigns
         ),
         SignRowModel(
-            imageName: "1.6",
-            title: "Предупреждающие знаки ",
+            fileName: "5.SignsOfSpecialRegulations",
+            imageName: "5.1",
+            title: "Знаки особых предписаний",
             signs: SignModel.warningSigns
         ),
         SignRowModel(
-            imageName: "1.7",
-            title: "Предупреждающие знаки ",
+            fileName: "6.InformationSigns",
+            imageName: "6.1",
+            title: "Информационные знаки",
+            signs: SignModel.warningSigns
+        ),
+        SignRowModel(
+            fileName: "7.ServiceSigns",
+            imageName: "7.1",
+            title: "Знаки сервиса",
+            signs: SignModel.warningSigns
+        ),
+        SignRowModel(
+            fileName: "8.SignsOfAdditionalInformation",
+            imageName: "6.1",
+            title: "Знаки дополнительной информации",
             signs: SignModel.warningSigns
         ),
     ]}

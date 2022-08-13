@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SignCategoryList: View {
+    @EnvironmentObject var audioPlayer: AudioPlayerService
     private let signCategories = SignRowModel.allSignsCategory
     
     private let favoriteSigns = SignRowModel.modelForPreview
@@ -50,20 +51,31 @@ extension SignCategoryList {
     func categoryList() -> some View {
         Section {
             ForEach(signCategories, id: \.id) { category in
-                NavigationLink {
-                    SignCarousel(categorySings: category)
-                    
-                } label: {
+//                NavigationLink {
+//                    SignCarousel(categorySings: category)
+//
+//                } label: {
                     HStack {
-                        Image(category.imageName)
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .padding(.vertical, 4)
-                            .frame(width: 42, height: 42)
-                        Text(category.title)
-                            .multilineTextAlignment(.leading)
+                        Button {
+                            audioPlayer.play(fileName: category.fileName)
+                        } label: {
+                            Image(category.imageName)
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.vertical, 4)
+                                .frame(width: 42, height: 42)
+                        }
+
+                        NavigationLink {
+                            SignCarousel(categorySings: category)
+                        } label: {
+                            Text(category.title)
+                                .multilineTextAlignment(.leading)
+                        }
+
                         
-                    }
+                        
+//                    }
                 }
             }
         } header: {

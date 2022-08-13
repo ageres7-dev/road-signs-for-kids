@@ -12,6 +12,7 @@ struct Road_signs_for_kidsApp: App {
     var body: some Scene {
         WindowGroup {
             SignCategoryList()
+                .environmentObject(AudioPlayerService.shared)
                 .environmentObject(SpeechService.shared)
         }
     }

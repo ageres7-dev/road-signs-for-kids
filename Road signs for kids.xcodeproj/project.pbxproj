@@ -27,6 +27,15 @@
 		3B50550C28A59A310080A2AD /* 1.8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B50550328A59A310080A2AD /* 1.8.m4a */; };
 		3B856153289F0CCA00644582 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B856152289F0CCA00644582 /* SpeechService.swift */; };
 		3BA08CE128A8441000E83D21 /* SignCategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA08CE028A8441000E83D21 /* SignCategoryList.swift */; };
+		3BA08CE328A84A1C00E83D21 /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA08CE228A84A1C00E83D21 /* AudioPlayerService.swift */; };
+		3BA08CE628A8500600E83D21 /* 1.WarningSigns.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BA08CE528A8500600E83D21 /* 1.WarningSigns.m4a */; };
+		3BA08CF028A8508D00E83D21 /* 2.SignsOfPriority.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BA08CEF28A8508D00E83D21 /* 2.SignsOfPriority.m4a */; };
+		3BA08CF728A8509F00E83D21 /* 6.InformationSigns.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BA08CF128A8509F00E83D21 /* 6.InformationSigns.m4a */; };
+		3BA08CF828A8509F00E83D21 /* 4.MandatorySigns.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BA08CF228A8509F00E83D21 /* 4.MandatorySigns.m4a */; };
+		3BA08CF928A8509F00E83D21 /* 8.SignsOfAdditionalInformation.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BA08CF328A8509F00E83D21 /* 8.SignsOfAdditionalInformation.m4a */; };
+		3BA08CFA28A8509F00E83D21 /* 7.ServiceSigns.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BA08CF428A8509F00E83D21 /* 7.ServiceSigns.m4a */; };
+		3BA08CFB28A8509F00E83D21 /* 3.ProhibitionSigns.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BA08CF528A8509F00E83D21 /* 3.ProhibitionSigns.m4a */; };
+		3BA08CFC28A8509F00E83D21 /* 5.SignsOfSpecialRegulations.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BA08CF628A8509F00E83D21 /* 5.SignsOfSpecialRegulations.m4a */; };
 		3BBA143E289EB1C000BBA1CD /* SignCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBA143D289EB1C000BBA1CD /* SignCard.swift */; };
 		3BE92BBF28A823D6006B375B /* Color + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE92BBE28A823D6006B375B /* Color + Extension.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +62,15 @@
 		3B50550328A59A310080A2AD /* 1.8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.8.m4a; sourceTree = "<group>"; };
 		3B856152289F0CCA00644582 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
 		3BA08CE028A8441000E83D21 /* SignCategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignCategoryList.swift; sourceTree = "<group>"; };
+		3BA08CE228A84A1C00E83D21 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+		3BA08CE528A8500600E83D21 /* 1.WarningSigns.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.WarningSigns.m4a; sourceTree = "<group>"; };
+		3BA08CEF28A8508D00E83D21 /* 2.SignsOfPriority.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.SignsOfPriority.m4a; sourceTree = "<group>"; };
+		3BA08CF128A8509F00E83D21 /* 6.InformationSigns.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 6.InformationSigns.m4a; sourceTree = "<group>"; };
+		3BA08CF228A8509F00E83D21 /* 4.MandatorySigns.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.MandatorySigns.m4a; sourceTree = "<group>"; };
+		3BA08CF328A8509F00E83D21 /* 8.SignsOfAdditionalInformation.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8.SignsOfAdditionalInformation.m4a; sourceTree = "<group>"; };
+		3BA08CF428A8509F00E83D21 /* 7.ServiceSigns.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 7.ServiceSigns.m4a; sourceTree = "<group>"; };
+		3BA08CF528A8509F00E83D21 /* 3.ProhibitionSigns.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.ProhibitionSigns.m4a; sourceTree = "<group>"; };
+		3BA08CF628A8509F00E83D21 /* 5.SignsOfSpecialRegulations.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5.SignsOfSpecialRegulations.m4a; sourceTree = "<group>"; };
 		3BBA143D289EB1C000BBA1CD /* SignCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignCard.swift; sourceTree = "<group>"; };
 		3BE92BBE28A823D6006B375B /* Color + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +112,7 @@
 				3B1CB39F28A793AD00947A9B /* SignRowView.swift */,
 				3B15C64028A77E7F00A21194 /* SignCarousel.swift */,
 				3BBA143D289EB1C000BBA1CD /* SignCard.swift */,
+				3BA08CE228A84A1C00E83D21 /* AudioPlayerService.swift */,
 				3B856152289F0CCA00644582 /* SpeechService.swift */,
 				3B45A1DC289E6F0D00EE4E98 /* PageView.swift */,
 				3BE92BBE28A823D6006B375B /* Color + Extension.swift */,
@@ -124,6 +143,22 @@
 		3B5054C428A5922C0080A2AD /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				3BA08CEE28A8506D00E83D21 /* 8 */,
+				3BA08CED28A8506700E83D21 /* 7 */,
+				3BA08CEC28A8505000E83D21 /* 6 */,
+				3BA08CEB28A8504300E83D21 /* 5 */,
+				3BA08CEA28A8503C00E83D21 /* 4 */,
+				3BA08CE928A8503600E83D21 /* 3 */,
+				3BA08CE828A8502F00E83D21 /* 2 */,
+				3BA08CE428A84FD900E83D21 /* 1 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		3BA08CE428A84FD900E83D21 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				3BA08CE528A8500600E83D21 /* 1.WarningSigns.m4a */,
 				3B5054FB28A59A2F0080A2AD /* 1.1.m4a */,
 				3B50550028A59A300080A2AD /* 1.2.m4a */,
 				3B5054FC28A59A2F0080A2AD /* 1.3.1.m4a */,
@@ -134,7 +169,63 @@
 				3B50550328A59A310080A2AD /* 1.8.m4a */,
 				3B50550128A59A300080A2AD /* 1.9.m4a */,
 			);
-			path = Sounds;
+			path = 1;
+			sourceTree = "<group>";
+		};
+		3BA08CE828A8502F00E83D21 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				3BA08CEF28A8508D00E83D21 /* 2.SignsOfPriority.m4a */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		3BA08CE928A8503600E83D21 /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				3BA08CF528A8509F00E83D21 /* 3.ProhibitionSigns.m4a */,
+			);
+			path = 3;
+			sourceTree = "<group>";
+		};
+		3BA08CEA28A8503C00E83D21 /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				3BA08CF228A8509F00E83D21 /* 4.MandatorySigns.m4a */,
+			);
+			path = 4;
+			sourceTree = "<group>";
+		};
+		3BA08CEB28A8504300E83D21 /* 5 */ = {
+			isa = PBXGroup;
+			children = (
+				3BA08CF628A8509F00E83D21 /* 5.SignsOfSpecialRegulations.m4a */,
+			);
+			path = 5;
+			sourceTree = "<group>";
+		};
+		3BA08CEC28A8505000E83D21 /* 6 */ = {
+			isa = PBXGroup;
+			children = (
+				3BA08CF128A8509F00E83D21 /* 6.InformationSigns.m4a */,
+			);
+			path = 6;
+			sourceTree = "<group>";
+		};
+		3BA08CED28A8506700E83D21 /* 7 */ = {
+			isa = PBXGroup;
+			children = (
+				3BA08CF428A8509F00E83D21 /* 7.ServiceSigns.m4a */,
+			);
+			path = 7;
+			sourceTree = "<group>";
+		};
+		3BA08CEE28A8506D00E83D21 /* 8 */ = {
+			isa = PBXGroup;
+			children = (
+				3BA08CF328A8509F00E83D21 /* 8.SignsOfAdditionalInformation.m4a */,
+			);
+			path = 8;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,17 +286,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA08CF928A8509F00E83D21 /* 8.SignsOfAdditionalInformation.m4a in Resources */,
+				3BA08CFA28A8509F00E83D21 /* 7.ServiceSigns.m4a in Resources */,
 				3B50550A28A59A310080A2AD /* 1.9.m4a in Resources */,
 				3B50550928A59A310080A2AD /* 1.2.m4a in Resources */,
 				3B50550728A59A310080A2AD /* 1.6.m4a in Resources */,
+				3BA08CE628A8500600E83D21 /* 1.WarningSigns.m4a in Resources */,
 				3B50550628A59A310080A2AD /* 1.3.2.m4a in Resources */,
 				3B50550428A59A310080A2AD /* 1.1.m4a in Resources */,
+				3BA08CF828A8509F00E83D21 /* 4.MandatorySigns.m4a in Resources */,
+				3BA08CFC28A8509F00E83D21 /* 5.SignsOfSpecialRegulations.m4a in Resources */,
 				3B45A1D4289E6E3F00EE4E98 /* Preview Assets.xcassets in Resources */,
+				3BA08CFB28A8509F00E83D21 /* 3.ProhibitionSigns.m4a in Resources */,
 				3B50550528A59A310080A2AD /* 1.3.1.m4a in Resources */,
 				3B50550C28A59A310080A2AD /* 1.8.m4a in Resources */,
 				3B50550B28A59A310080A2AD /* 1.7.m4a in Resources */,
+				3BA08CF728A8509F00E83D21 /* 6.InformationSigns.m4a in Resources */,
 				3B50550828A59A310080A2AD /* 1.5.m4a in Resources */,
 				3B45A1D1289E6E3F00EE4E98 /* Assets.xcassets in Resources */,
+				3BA08CF028A8508D00E83D21 /* 2.SignsOfPriority.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA08CE328A84A1C00E83D21 /* AudioPlayerService.swift in Sources */,
 				3B1CB3A028A793AD00947A9B /* SignRowView.swift in Sources */,
 				3BA08CE128A8441000E83D21 /* SignCategoryList.swift in Sources */,
 				3B15C64128A77E7F00A21194 /* SignCarousel.swift in Sources */,
