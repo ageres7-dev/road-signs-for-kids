@@ -8,28 +8,44 @@
 import SwiftUI
 
 struct SignCarousel: View {
-    let signs: [SignModel]
+    @State private var selectionSign: SignRowModel?
+    
+    let categorySings: SignRowModel
+    var isFavorite = false
     
     var body: some View {
-            TabView {
-                ForEach(signs) { sing in
+        TabView(selection: $selectionSign) {
+                ForEach(categorySings.signs) { sing in
                     SignCard(model: sing)
                         .padding(.bottom)
                 }
-//                .onAppear {
-//                    signs.forEach {
-//                        print("\($0.numberSign)-\($0.title).")
-//                    }
-//                }
+
             }
-            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never) )
-//            .ignoresSafeArea()
+            .navigationTitle(categorySings.title)
+            .navigationBarTitleDisplayMode(.inline)
+            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    if isFavorite {
+                        Button {
+                            print("Удаление \(selectionSign?.title ?? "")")
+                        } label: {
+                            Image(systemName: "trash")
+                        }
+                    } else {
+                        EmptyView()
+                    }
+                }
+            }
+        
+//            .ignoresSafeArea(.container, edges: .top)
 
     }
 }
 
 struct SignCarusel_Previews: PreviewProvider {
     static var previews: some View {
-        SignCarousel(signs: SignModel.warningSigns)
+        
+        SignCarousel(categorySings: SignRowModel.modelForPreview)
     }
 }

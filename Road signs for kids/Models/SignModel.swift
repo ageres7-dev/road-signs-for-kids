@@ -7,13 +7,12 @@
 
 import Foundation
 
-struct SignModel: Identifiable {
+struct SignModel: Identifiable, Hashable {
     let id = UUID()
     let numberSign: String
     let title: String
     let body: String?
 }
-
 
 extension SignModel {
     static var modelForPreview: SignModel {
@@ -32,11 +31,6 @@ extension SignModel {
 extension SignModel {
     static var warningSigns: [SignModel] {[
         
-        SignModel(
-            numberSign: "test_svg",
-            title: "выезд на набережную.",
-            body: nil
-        ),
         SignModel(
             numberSign: "1.1",
             title: "Железнодорожный переезд со шлагбаумом",

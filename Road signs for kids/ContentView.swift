@@ -15,27 +15,58 @@ struct ContentView: View {
         SignRowModel.modelForPreview,
         SignRowModel.modelForPreview,
     ]
-    private let warningSigns = SignModel.warningSigns
+    
+    private let favoriteSigns = SignRowModel.modelForPreview
+//    private let warningSigns = SignModel.warningSigns
     
     var body: some View {
         NavigationView {
-            ScrollView {
-                LazyVStack(spacing: 0) {
-                    ForEach(signCategories, id: \.id) { category in
-                        NavigationLink {
-                            SignCarousel(signs: category.signs)
-                                
-                        } label: {
-                            SignRowView(signCategory: category, shadowRadius: 8)
-                                .foregroundColor(.primary)
-                                .padding(.horizontal, 16)
-                                .padding(.vertical, 8)
+            Form {
+                Section {
+                    NavigationLink {
+                        SignCarousel(categorySings: favoriteSigns, isFavorite: true)
+                    } label: {
+                        HStack {
+                            Image(systemName: "heart.fill")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .foregroundColor(.red)
+                                .padding(.vertical, 4)
+                                .frame(width: 42, height: 42)
+                            Text(favoriteSigns.title)
+                                .multilineTextAlignment(.leading)
+                            
                         }
                     }
+                } header: {
+                    Text("Избранное")
+                }
+                
+                Section {
+                    ForEach(signCategories, id: \.id) { category in
+                        NavigationLink {
+                            SignCarousel(categorySings: category)
+                            
+                        } label: {
+                            HStack {
+                                Image(category.imageName)
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .padding(.vertical, 4)
+                                    .frame(width: 42, height: 42)
+                                Text(category.title)
+//                                    .bold()
+                                    .multilineTextAlignment(.leading)
+                                
+                            }
+                        }
+                    }
+                } header: {
+                    Text("Категории знаков")
                 }
             }
-            .navigationTitle("Все знаки")
-            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarTitleDisplayMode(.large)
+            .navigationTitle("Дорожные знаки")
         }
     }
 }

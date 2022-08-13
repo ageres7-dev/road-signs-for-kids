@@ -11,7 +11,7 @@ import SwiftUI
 struct Road_signs_for_kidsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SignCategoryList()
                 .environmentObject(SpeechService.shared)
         }
     }

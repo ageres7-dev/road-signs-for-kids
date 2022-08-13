@@ -18,36 +18,37 @@ struct SignCard: View {
     var body: some View {
         ZStack {
             Color(colorScheme == .light ? .white : .systemGray5 )
-            
-            VStack(spacing: 16) {
-                Spacer()
-                Button(action: playName) {
-                    Image(model.numberSign)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .shadow(radius: 4)
-                        .padding(.horizontal, 30)
-                        .padding(.bottom, 16)
+            ScrollView(showsIndicators: false)  {
+                VStack(spacing: 16) {
+                    Spacer()
+                    Button(action: playName) {
+                        Image(model.numberSign)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .shadow(radius: 4)
+                            .padding(.horizontal, 30)
+                            .padding(.bottom, 16)
+                    }
+                    
+                    Text(model.numberSign + " " + model.title)
+                        .bold()
+                        .font(.title2)
+                        .multilineTextAlignment(.center)
+                    
+                    if let body = model.body {
+                        Text(body)
+                    }
+                    
+                    Spacer()
+                    Spacer()
                 }
-                
-                Text(model.numberSign + " " + model.title)
-                    .bold()
-                    .font(.title2)
-                    .multilineTextAlignment(.center)
-                
-                if let body = model.body {
-                    Text(body)
-                }
-                
-                Spacer()
-                Spacer()
+                .padding()
             }
-            .padding()
         }
         .clipShape(
             RoundedRectangle(cornerRadius: 40, style: .continuous)
         )
-        .shadow(radius: 20)
+        .shadow(color: .customGray, radius: 20, x: 0, y: 0)
         .padding()
     }
 }

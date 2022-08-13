@@ -26,7 +26,9 @@
 		3B50550B28A59A310080A2AD /* 1.7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B50550228A59A310080A2AD /* 1.7.m4a */; };
 		3B50550C28A59A310080A2AD /* 1.8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B50550328A59A310080A2AD /* 1.8.m4a */; };
 		3B856153289F0CCA00644582 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B856152289F0CCA00644582 /* SpeechService.swift */; };
+		3BA08CE128A8441000E83D21 /* SignCategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA08CE028A8441000E83D21 /* SignCategoryList.swift */; };
 		3BBA143E289EB1C000BBA1CD /* SignCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBA143D289EB1C000BBA1CD /* SignCard.swift */; };
+		3BE92BBF28A823D6006B375B /* Color + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE92BBE28A823D6006B375B /* Color + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +52,9 @@
 		3B50550228A59A310080A2AD /* 1.7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.7.m4a; sourceTree = "<group>"; };
 		3B50550328A59A310080A2AD /* 1.8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.8.m4a; sourceTree = "<group>"; };
 		3B856152289F0CCA00644582 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		3BA08CE028A8441000E83D21 /* SignCategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignCategoryList.swift; sourceTree = "<group>"; };
 		3BBA143D289EB1C000BBA1CD /* SignCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignCard.swift; sourceTree = "<group>"; };
+		3BE92BBE28A823D6006B375B /* Color + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +90,13 @@
 				3B5054C428A5922C0080A2AD /* Sounds */,
 				3B45A1CC289E6E3E00EE4E98 /* Road_signs_for_kidsApp.swift */,
 				3B45A1CE289E6E3E00EE4E98 /* ContentView.swift */,
+				3BA08CE028A8441000E83D21 /* SignCategoryList.swift */,
 				3B1CB39F28A793AD00947A9B /* SignRowView.swift */,
 				3B15C64028A77E7F00A21194 /* SignCarousel.swift */,
 				3BBA143D289EB1C000BBA1CD /* SignCard.swift */,
 				3B856152289F0CCA00644582 /* SpeechService.swift */,
 				3B45A1DC289E6F0D00EE4E98 /* PageView.swift */,
+				3BE92BBE28A823D6006B375B /* Color + Extension.swift */,
 				3B45A1DE289E73E000EE4E98 /* Models */,
 				3B45A1D0289E6E3F00EE4E98 /* Assets.xcassets */,
 				3B45A1D2289E6E3F00EE4E98 /* Preview Content */,
@@ -211,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B1CB3A028A793AD00947A9B /* SignRowView.swift in Sources */,
+				3BA08CE128A8441000E83D21 /* SignCategoryList.swift in Sources */,
 				3B15C64128A77E7F00A21194 /* SignCarousel.swift in Sources */,
 				3B45A1CF289E6E3E00EE4E98 /* ContentView.swift in Sources */,
 				3B45A1E0289E73F700EE4E98 /* SignModel.swift in Sources */,
@@ -219,6 +226,7 @@
 				3B45A1DD289E6F0D00EE4E98 /* PageView.swift in Sources */,
 				3B856153289F0CCA00644582 /* SpeechService.swift in Sources */,
 				3B1CB3A228A7955E00947A9B /* SignRowModel.swift in Sources */,
+				3BE92BBF28A823D6006B375B /* Color + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
