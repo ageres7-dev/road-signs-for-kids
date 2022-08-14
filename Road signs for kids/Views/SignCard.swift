@@ -18,7 +18,7 @@ struct SignCard: View {
     var body: some View {
         ZStack {
             Color(colorScheme == .light ? .white : .systemGray5 )
-//            ScrollView(showsIndicators: false)  {
+            ScrollView(showsIndicators: false)  {
                 VStack(spacing: 16) {
                     Spacer()
                     Button(action: playName) {
@@ -43,7 +43,7 @@ struct SignCard: View {
                     Spacer()
                 }
                 .padding()
-//            }
+            }
         }
         .clipShape(
             RoundedRectangle(cornerRadius: 40, style: .continuous)
