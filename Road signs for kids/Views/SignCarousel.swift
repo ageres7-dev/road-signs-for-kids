@@ -8,27 +8,34 @@
 import SwiftUI
 
 struct SignCarousel: View {
-    @State private var selectionSign: SignRowModel?
+    @Environment(\.colorScheme) private var colorScheme
+    @State private var selectionSign: String = "first"
     
     let categorySings: SignRowModel
     var isFavorite = false
     
     var body: some View {
-        TabView(selection: $selectionSign) {
+        
+        ZStack {
+            Group { colorScheme == .dark ? Color.black : Color.customBackground }
+                .ignoresSafeArea()
+            
+            TabView(selection: $selectionSign) {
                 ForEach(categorySings.signs) { sing in
                     SignCard(model: sing)
-                        .padding(.bottom)
+                        .padding(.bottom, 34)
+                        .tag(sing.numberSign)
                 }
-
             }
             .navigationTitle(categorySings.title)
             .navigationBarTitleDisplayMode(.inline)
-            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
+            .tabViewStyle(.page(indexDisplayMode: .always))
+            .indexViewStyle(.page(backgroundDisplayMode: .always))
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     if isFavorite {
                         Button {
-                            print("Удаление \(selectionSign?.title ?? "")")
+                            print("Удаление \(selectionSign)")
                         } label: {
                             Image(systemName: "trash")
                         }
@@ -37,9 +44,7 @@ struct SignCarousel: View {
                     }
                 }
             }
-        
-//            .ignoresSafeArea(.container, edges: .top)
-
+        }
     }
 }
 

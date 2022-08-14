@@ -48,7 +48,7 @@ struct SignCard: View {
         .clipShape(
             RoundedRectangle(cornerRadius: 40, style: .continuous)
         )
-        .shadow(color: .customGray, radius: 20, x: 0, y: 0)
+        .shadow(color: .customGray, radius: 5, x: 0, y: 0)
         .padding()
     }
 }

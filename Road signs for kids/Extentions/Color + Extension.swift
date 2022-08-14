@@ -10,4 +10,5 @@ import SwiftUI
 
 extension Color {
     static let customGray = Color(.sRGB, red: 28/255, green: 28/255, blue: 28/255, opacity: 0.25)
+    static let customBackground = Color(red: 242/255, green: 242/255, blue: 247/255)
 }

@@ -57,7 +57,7 @@ extension SignCategoryList {
 //                } label: {
                     HStack {
                         Button {
-                            audioPlayer.play(fileName: category.fileName)
+//                            audioPlayer.play(fileName: category.fileName)
                         } label: {
                             Image(category.imageName)
                                 .resizable()

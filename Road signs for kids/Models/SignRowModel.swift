@@ -21,7 +21,7 @@ extension SignRowModel {
         SignRowModel(
             fileName: "1.WarningSigns",
             imageName: "1.1",
-            title: "Предупреждающие знаки ",
+            title: "Предупреждающие знаки",
             signs: SignModel.warningSigns
         )
         

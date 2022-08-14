@@ -49,6 +49,32 @@
 		3BB2AF3C28A8D1E1003565CF /* 3.6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF3228A8D1E1003565CF /* 3.6.m4a */; };
 		3BB2AF3D28A8D1E1003565CF /* 3.4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF3328A8D1E1003565CF /* 3.4.m4a */; };
 		3BB2AF3E28A8D1E1003565CF /* 3.7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF3428A8D1E1003565CF /* 3.7.m4a */; };
+		3BB2AF5D28A90430003565CF /* 3.18.2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF4328A9042F003565CF /* 3.18.2.m4a */; };
+		3BB2AF5E28A90430003565CF /* 3.26.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF4428A9042F003565CF /* 3.26.m4a */; };
+		3BB2AF5F28A90430003565CF /* 3.15.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF4528A9042F003565CF /* 3.15.m4a */; };
+		3BB2AF6028A90430003565CF /* 3.29.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF4628A9042F003565CF /* 3.29.m4a */; };
+		3BB2AF6128A90430003565CF /* 3.17.2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF4728A9042F003565CF /* 3.17.2.m4a */; };
+		3BB2AF6228A90430003565CF /* 3.12.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF4828A9042F003565CF /* 3.12.m4a */; };
+		3BB2AF6328A90430003565CF /* 3.20.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF4928A9042F003565CF /* 3.20.m4a */; };
+		3BB2AF6428A90430003565CF /* 3.21.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF4A28A9042F003565CF /* 3.21.m4a */; };
+		3BB2AF6528A90430003565CF /* 3.17.3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF4B28A9042F003565CF /* 3.17.3.m4a */; };
+		3BB2AF6628A90430003565CF /* 3.14.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF4C28A9042F003565CF /* 3.14.m4a */; };
+		3BB2AF6728A90430003565CF /* 3.31.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF4D28A9042F003565CF /* 3.31.m4a */; };
+		3BB2AF6828A90430003565CF /* 3.30.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF4E28A90430003565CF /* 3.30.m4a */; };
+		3BB2AF6928A90430003565CF /* 3.11.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF4F28A90430003565CF /* 3.11.m4a */; };
+		3BB2AF6A28A90430003565CF /* 3.32.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF5028A90430003565CF /* 3.32.m4a */; };
+		3BB2AF6B28A90430003565CF /* 3.25.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF5128A90430003565CF /* 3.25.m4a */; };
+		3BB2AF6C28A90430003565CF /* 3.22.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF5228A90430003565CF /* 3.22.m4a */; };
+		3BB2AF6D28A90430003565CF /* 3.23.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF5328A90430003565CF /* 3.23.m4a */; };
+		3BB2AF6E28A90430003565CF /* 3.33.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF5428A90430003565CF /* 3.33.m4a */; };
+		3BB2AF6F28A90430003565CF /* 3.13.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF5528A90430003565CF /* 3.13.m4a */; };
+		3BB2AF7028A90430003565CF /* 3.17.1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF5628A90430003565CF /* 3.17.1.m4a */; };
+		3BB2AF7128A90430003565CF /* 3.18.1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF5728A90430003565CF /* 3.18.1.m4a */; };
+		3BB2AF7228A90430003565CF /* 3.28.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF5828A90430003565CF /* 3.28.m4a */; };
+		3BB2AF7328A90430003565CF /* 3.27.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF5928A90430003565CF /* 3.27.m4a */; };
+		3BB2AF7428A90430003565CF /* 3.19.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF5A28A90430003565CF /* 3.19.m4a */; };
+		3BB2AF7528A90430003565CF /* 3.24.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF5B28A90430003565CF /* 3.24.m4a */; };
+		3BB2AF7628A90430003565CF /* 3.16.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2AF5C28A90430003565CF /* 3.16.m4a */; };
 		3BBA143E289EB1C000BBA1CD /* SignCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBA143D289EB1C000BBA1CD /* SignCard.swift */; };
 		3BE92BBF28A823D6006B375B /* Color + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE92BBE28A823D6006B375B /* Color + Extension.swift */; };
 /* End PBXBuildFile section */
@@ -97,6 +123,33 @@
 		3BB2AF3228A8D1E1003565CF /* 3.6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.6.m4a; sourceTree = "<group>"; };
 		3BB2AF3328A8D1E1003565CF /* 3.4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.4.m4a; sourceTree = "<group>"; };
 		3BB2AF3428A8D1E1003565CF /* 3.7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.7.m4a; sourceTree = "<group>"; };
+		3BB2AF4328A9042F003565CF /* 3.18.2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.18.2.m4a; sourceTree = "<group>"; };
+		3BB2AF4428A9042F003565CF /* 3.26.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.26.m4a; sourceTree = "<group>"; };
+		3BB2AF4528A9042F003565CF /* 3.15.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.15.m4a; sourceTree = "<group>"; };
+		3BB2AF4628A9042F003565CF /* 3.29.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.29.m4a; sourceTree = "<group>"; };
+		3BB2AF4728A9042F003565CF /* 3.17.2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.17.2.m4a; sourceTree = "<group>"; };
+		3BB2AF4828A9042F003565CF /* 3.12.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.12.m4a; sourceTree = "<group>"; };
+		3BB2AF4928A9042F003565CF /* 3.20.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.20.m4a; sourceTree = "<group>"; };
+		3BB2AF4A28A9042F003565CF /* 3.21.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.21.m4a; sourceTree = "<group>"; };
+		3BB2AF4B28A9042F003565CF /* 3.17.3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.17.3.m4a; sourceTree = "<group>"; };
+		3BB2AF4C28A9042F003565CF /* 3.14.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.14.m4a; sourceTree = "<group>"; };
+		3BB2AF4D28A9042F003565CF /* 3.31.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.31.m4a; sourceTree = "<group>"; };
+		3BB2AF4E28A90430003565CF /* 3.30.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.30.m4a; sourceTree = "<group>"; };
+		3BB2AF4F28A90430003565CF /* 3.11.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.11.m4a; sourceTree = "<group>"; };
+		3BB2AF5028A90430003565CF /* 3.32.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.32.m4a; sourceTree = "<group>"; };
+		3BB2AF5128A90430003565CF /* 3.25.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.25.m4a; sourceTree = "<group>"; };
+		3BB2AF5228A90430003565CF /* 3.22.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.22.m4a; sourceTree = "<group>"; };
+		3BB2AF5328A90430003565CF /* 3.23.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.23.m4a; sourceTree = "<group>"; };
+		3BB2AF5428A90430003565CF /* 3.33.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.33.m4a; sourceTree = "<group>"; };
+		3BB2AF5528A90430003565CF /* 3.13.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.13.m4a; sourceTree = "<group>"; };
+		3BB2AF5628A90430003565CF /* 3.17.1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.17.1.m4a; sourceTree = "<group>"; };
+		3BB2AF5728A90430003565CF /* 3.18.1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.18.1.m4a; sourceTree = "<group>"; };
+		3BB2AF5828A90430003565CF /* 3.28.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.28.m4a; sourceTree = "<group>"; };
+		3BB2AF5928A90430003565CF /* 3.27.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.27.m4a; sourceTree = "<group>"; };
+		3BB2AF5A28A90430003565CF /* 3.19.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.19.m4a; sourceTree = "<group>"; };
+		3BB2AF5B28A90430003565CF /* 3.24.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.24.m4a; sourceTree = "<group>"; };
+		3BB2AF5C28A90430003565CF /* 3.16.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.16.m4a; sourceTree = "<group>"; };
+		3BB2AF7728A90E4B003565CF /* Road-signs-for-kids-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Road-signs-for-kids-Info.plist"; sourceTree = SOURCE_ROOT; };
 		3BBA143D289EB1C000BBA1CD /* SignCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignCard.swift; sourceTree = "<group>"; };
 		3BE92BBE28A823D6006B375B /* Color + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +184,7 @@
 		3B45A1CB289E6E3E00EE4E98 /* Road signs for kids */ = {
 			isa = PBXGroup;
 			children = (
+				3BB2AF7728A90E4B003565CF /* Road-signs-for-kids-Info.plist */,
 				3B45A1CC289E6E3E00EE4E98 /* Road_signs_for_kidsApp.swift */,
 				3BB2AF4228A8F5BE003565CF /* Services */,
 				3BB2AF4028A8F57C003565CF /* Extentions */,
@@ -216,6 +270,32 @@
 				3BB2AF3128A8D1E1003565CF /* 3.8.m4a */,
 				3BB2AF2D28A8D1E1003565CF /* 3.9.m4a */,
 				3BB2AF2C28A8D1E1003565CF /* 3.10.m4a */,
+				3BB2AF4F28A90430003565CF /* 3.11.m4a */,
+				3BB2AF4828A9042F003565CF /* 3.12.m4a */,
+				3BB2AF5528A90430003565CF /* 3.13.m4a */,
+				3BB2AF4C28A9042F003565CF /* 3.14.m4a */,
+				3BB2AF4528A9042F003565CF /* 3.15.m4a */,
+				3BB2AF5C28A90430003565CF /* 3.16.m4a */,
+				3BB2AF5628A90430003565CF /* 3.17.1.m4a */,
+				3BB2AF4728A9042F003565CF /* 3.17.2.m4a */,
+				3BB2AF4B28A9042F003565CF /* 3.17.3.m4a */,
+				3BB2AF5728A90430003565CF /* 3.18.1.m4a */,
+				3BB2AF4328A9042F003565CF /* 3.18.2.m4a */,
+				3BB2AF5A28A90430003565CF /* 3.19.m4a */,
+				3BB2AF4928A9042F003565CF /* 3.20.m4a */,
+				3BB2AF4A28A9042F003565CF /* 3.21.m4a */,
+				3BB2AF5228A90430003565CF /* 3.22.m4a */,
+				3BB2AF5328A90430003565CF /* 3.23.m4a */,
+				3BB2AF5B28A90430003565CF /* 3.24.m4a */,
+				3BB2AF5128A90430003565CF /* 3.25.m4a */,
+				3BB2AF4428A9042F003565CF /* 3.26.m4a */,
+				3BB2AF5928A90430003565CF /* 3.27.m4a */,
+				3BB2AF5828A90430003565CF /* 3.28.m4a */,
+				3BB2AF4628A9042F003565CF /* 3.29.m4a */,
+				3BB2AF4E28A90430003565CF /* 3.30.m4a */,
+				3BB2AF4D28A9042F003565CF /* 3.31.m4a */,
+				3BB2AF5028A90430003565CF /* 3.32.m4a */,
+				3BB2AF5428A90430003565CF /* 3.33.m4a */,
 			);
 			path = 3;
 			sourceTree = "<group>";
@@ -359,36 +439,62 @@
 			files = (
 				3BB2AF3C28A8D1E1003565CF /* 3.6.m4a in Resources */,
 				3BA08CF928A8509F00E83D21 /* 8.SignsOfAdditionalInformation.m4a in Resources */,
+				3BB2AF7128A90430003565CF /* 3.18.1.m4a in Resources */,
 				3BB2AF3A28A8D1E1003565CF /* 3.1.m4a in Resources */,
 				3BA08CFA28A8509F00E83D21 /* 7.ServiceSigns.m4a in Resources */,
+				3BB2AF6428A90430003565CF /* 3.21.m4a in Resources */,
+				3BB2AF6228A90430003565CF /* 3.12.m4a in Resources */,
+				3BB2AF6B28A90430003565CF /* 3.25.m4a in Resources */,
 				3BB2AF3728A8D1E1003565CF /* 3.9.m4a in Resources */,
+				3BB2AF7328A90430003565CF /* 3.27.m4a in Resources */,
+				3BB2AF6D28A90430003565CF /* 3.23.m4a in Resources */,
 				3BB2AF3628A8D1E1003565CF /* 3.10.m4a in Resources */,
+				3BB2AF6A28A90430003565CF /* 3.32.m4a in Resources */,
 				3B50550A28A59A310080A2AD /* 1.9.m4a in Resources */,
+				3BB2AF5E28A90430003565CF /* 3.26.m4a in Resources */,
+				3BB2AF6728A90430003565CF /* 3.31.m4a in Resources */,
+				3BB2AF6028A90430003565CF /* 3.29.m4a in Resources */,
+				3BB2AF6528A90430003565CF /* 3.17.3.m4a in Resources */,
 				3B50550928A59A310080A2AD /* 1.2.m4a in Resources */,
+				3BB2AF7428A90430003565CF /* 3.19.m4a in Resources */,
 				3BB2AF3928A8D1E1003565CF /* 3.3.m4a in Resources */,
+				3BB2AF7028A90430003565CF /* 3.17.1.m4a in Resources */,
 				3B50550728A59A310080A2AD /* 1.6.m4a in Resources */,
+				3BB2AF7528A90430003565CF /* 3.24.m4a in Resources */,
+				3BB2AF6E28A90430003565CF /* 3.33.m4a in Resources */,
 				3BA08CE628A8500600E83D21 /* 1.WarningSigns.m4a in Resources */,
 				3B50550628A59A310080A2AD /* 1.3.2.m4a in Resources */,
 				3B50550428A59A310080A2AD /* 1.1.m4a in Resources */,
 				3BB2AF3828A8D1E1003565CF /* 3.2.m4a in Resources */,
 				3BA08CF828A8509F00E83D21 /* 4.MandatorySigns.m4a in Resources */,
+				3BB2AF6628A90430003565CF /* 3.14.m4a in Resources */,
 				3BB2AF3E28A8D1E1003565CF /* 3.7.m4a in Resources */,
 				3BA08CFC28A8509F00E83D21 /* 5.SignsOfSpecialRegulations.m4a in Resources */,
+				3BB2AF6328A90430003565CF /* 3.20.m4a in Resources */,
 				3B45A1D4289E6E3F00EE4E98 /* Preview Assets.xcassets in Resources */,
 				3BA08CFB28A8509F00E83D21 /* 3.ProhibitionSigns.m4a in Resources */,
+				3BB2AF6C28A90430003565CF /* 3.22.m4a in Resources */,
+				3BB2AF6128A90430003565CF /* 3.17.2.m4a in Resources */,
 				3BA08D0128A8585400E83D21 /* 2.1.m4a in Resources */,
 				3BB2AF3B28A8D1E1003565CF /* 3.8.m4a in Resources */,
 				3B50550528A59A310080A2AD /* 1.3.1.m4a in Resources */,
 				3BA08D0028A8585400E83D21 /* 2.2.m4a in Resources */,
+				3BB2AF6828A90430003565CF /* 3.30.m4a in Resources */,
+				3BB2AF5F28A90430003565CF /* 3.15.m4a in Resources */,
 				3B50550C28A59A310080A2AD /* 1.8.m4a in Resources */,
 				3B50550B28A59A310080A2AD /* 1.7.m4a in Resources */,
+				3BB2AF7628A90430003565CF /* 3.16.m4a in Resources */,
 				3BA08D0228A8585400E83D21 /* 2.3.1.m4a in Resources */,
 				3BA08CF728A8509F00E83D21 /* 6.InformationSigns.m4a in Resources */,
 				3BB2AF3528A8D1E1003565CF /* 3.5.m4a in Resources */,
+				3BB2AF6F28A90430003565CF /* 3.13.m4a in Resources */,
 				3B50550828A59A310080A2AD /* 1.5.m4a in Resources */,
 				3B45A1D1289E6E3F00EE4E98 /* Assets.xcassets in Resources */,
 				3BB2AF3D28A8D1E1003565CF /* 3.4.m4a in Resources */,
 				3BA08CF028A8508D00E83D21 /* 2.SignsOfPriority.m4a in Resources */,
+				3BB2AF5D28A90430003565CF /* 3.18.2.m4a in Resources */,
+				3BB2AF6928A90430003565CF /* 3.11.m4a in Resources */,
+				3BB2AF7228A90430003565CF /* 3.28.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +648,7 @@
 				DEVELOPMENT_TEAM = RNER64Q73Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Road-signs-for-kids-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -573,6 +680,7 @@
 				DEVELOPMENT_TEAM = RNER64Q73Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Road-signs-for-kids-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
