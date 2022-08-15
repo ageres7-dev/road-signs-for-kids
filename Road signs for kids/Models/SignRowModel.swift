@@ -24,10 +24,6 @@ extension SignRowModel {
             title: "Предупреждающие знаки",
             signs: SignModel.warningSigns
         )
-        
-//        SignModel(numberSign: "1.2",
-//                  title: "Железнодорожный переезд без шлагбаума",
-//                  body: "Подробное описание знака Железнодорожный переезд без шлагбаума")
     }
 }
 
@@ -51,18 +47,18 @@ extension SignRowModel {
             title: "Запрещающие знаки",
             signs: SignModel.prohibitionSigns
         ),
-//        SignRowModel(
-//            fileName: "4.MandatorySigns",
-//            imageName: "4.1",
-//            title: "Предписывающие знаки",
-//            signs: SignModel.warningSigns
-//        ),
-//        SignRowModel(
-//            fileName: "5.SignsOfSpecialRegulations",
-//            imageName: "5.1",
-//            title: "Знаки особых предписаний",
-//            signs: SignModel.warningSigns
-//        ),
+        SignRowModel(
+            fileName: "4.MandatorySigns",
+            imageName: "4.1.1",
+            title: "Предписывающие знаки",
+            signs: SignModel.mandatorySigns
+        ),
+        SignRowModel(
+            fileName: "5.SignsOfSpecialRegulations",
+            imageName: "5.1",
+            title: "Знаки особых предписаний",
+            signs: SignModel.signsOfSpecialRegulations
+        ),
 //        SignRowModel(
 //            fileName: "6.InformationSigns",
 //            imageName: "6.1",
