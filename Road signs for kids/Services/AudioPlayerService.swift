@@ -8,18 +8,52 @@
 import Foundation
 import AVFoundation
 
-class AudioPlayerService: ObservableObject  {
+class AudioPlayerService: NSObject, ObservableObject  {
     static let shared = AudioPlayerService()
+    
+    @Published var currentPlayedFile: String?
     
     private var player: AVAudioPlayer?
     
-    private init() {}
+    private override init() {
+        super.init()
+    }
     
-    func play(fileName: String, withExtension: String = "m4a") {
-        guard let soundFileURL = Bundle.main.url(forResource: fileName,
-                                                 withExtension: withExtension) else { return }
+    func stop() {
         player?.stop()
-        player = try? AVAudioPlayer(contentsOf: soundFileURL)
-        player?.play()
+        player = nil
+        currentPlayedFile = nil
+    }
+    
+    func playPause(fileName: String, withExtension: String = "m4a") {
+        guard
+            let soundFileURL = Bundle.main.url(
+                forResource: fileName,
+                withExtension: withExtension
+            )
+        else { return }
+        
+//        player.ob
+        
+        
+        let filenameWithExtension = fileName + withExtension
+        
+        if filenameWithExtension == currentPlayedFile  {
+            player?.stop()
+            currentPlayedFile = nil
+        } else {
+            currentPlayedFile = filenameWithExtension
+            
+            player?.stop()
+            player = try? AVAudioPlayer(contentsOf: soundFileURL)
+            player?.delegate = self
+            player?.play()
+        }
+    }
+}
+
+extension AudioPlayerService: AVAudioPlayerDelegate {
+    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+        currentPlayedFile = nil
     }
 }

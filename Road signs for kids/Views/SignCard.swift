@@ -26,6 +26,7 @@ struct SignCard: View {
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .shadow(radius: 4)
+                            .frame(maxWidth: .infinity, maxHeight: imageHeight)
                             .padding(.horizontal, 30)
                             .padding(.bottom, 16)
                     }
@@ -36,7 +37,11 @@ struct SignCard: View {
                         .multilineTextAlignment(.center)
                     
                     if let body = model.body {
-                        Text(body)
+                        Button(action: playBody) {
+                            Text(body)
+                                .multilineTextAlignment(.leading)
+                                .foregroundColor(.primary)
+                        }
                     }
                     
                     Spacer()
@@ -50,13 +55,27 @@ struct SignCard: View {
         )
         .shadow(color: .customGray, radius: 5, x: 0, y: 0)
         .padding()
+        .onDisappear {
+            audioPlayer.stop()
+        }
     }
 }
 
 extension SignCard {
+    private var imageHeight: CGFloat {
+        let screenSize: CGRect = UIScreen.main.bounds
+        
+        return min(screenSize.height, screenSize.width) * 0.8
+    }
+    
     private func playName() {
-        print("play name ", model.title)
-        audioPlayer.play(fileName: model.numberSign)
+        audioPlayer.playPause(fileName: model.numberSign)
+    }
+    
+    private func playBody() {
+        guard model.body != nil else { return }
+        
+        audioPlayer.playPause(fileName: model.numberSign + "-description")
     }
 }
 
