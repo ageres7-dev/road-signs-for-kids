@@ -59,23 +59,23 @@ extension SignRowModel {
             title: "Знаки особых предписаний",
             signs: SignModel.signsOfSpecialRegulations
         ),
-//        SignRowModel(
-//            fileName: "6.InformationSigns",
-//            imageName: "6.1",
-//            title: "Информационные знаки",
-//            signs: SignModel.warningSigns
-//        ),
-//        SignRowModel(
-//            fileName: "7.ServiceSigns",
-//            imageName: "7.1",
-//            title: "Знаки сервиса",
-//            signs: SignModel.warningSigns
-//        ),
-//        SignRowModel(
-//            fileName: "8.SignsOfAdditionalInformation",
-//            imageName: "6.1",
-//            title: "Знаки дополнительной информации",
-//            signs: SignModel.warningSigns
-//        ),
+        SignRowModel(
+            fileName: "6.InformationSigns",
+            imageName: "6.1",
+            title: "Информационные знаки",
+            signs: SignModel.informationSigns
+        ),
+        SignRowModel(
+            fileName: "7.ServiceSigns",
+            imageName: "7.1",
+            title: "Знаки сервиса",
+            signs: SignModel.serviceSigns
+        ),
+        SignRowModel(
+            fileName: "8.SignsOfAdditionalInformation",
+            imageName: "8.1.1",
+            title: "Знаки дополнительной информации",
+            signs: SignModel.signsOfAdditionalInformation
+        ),
     ]}
 }
