@@ -9,15 +9,21 @@ import SwiftUI
 
 struct SignCarousel: View {
     @FetchRequest(sortDescriptors: [])
-    var savedCurrentSigns: FetchedResults<CurrentSignModel>
+    private var savedCurrentSigns: FetchedResults<CurrentSignModel>
+    
+    @FetchRequest(
+        sortDescriptors: [NSSortDescriptor(keyPath: \FavoriteSignModel.dateAdded, ascending: true)],
+        animation: .default
+    )
+    private var favoriteSigns: FetchedResults<FavoriteSignModel>
     
     @Environment(\.colorScheme) private var colorScheme
-    @Environment(\.managedObjectContext) var moc
+    @Environment(\.managedObjectContext) private var moc
     
     @State private var selectionSign: String = "first"
     
     let categorySings: SignRowModel
-    var isFavorite = false
+    var isFavorite = true
     
     var body: some View {
         
@@ -47,13 +53,9 @@ struct SignCarousel: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     if isFavorite {
-                        Button {
-                            print("Удаление \(selectionSign)")
-                        } label: {
-                            Image(systemName: "trash")
-                        }
+                        heartButton
                     } else {
-                        EmptyView()
+                        trashButton
                     }
                 }
             }
@@ -63,6 +65,50 @@ struct SignCarousel: View {
 }
 
 extension SignCarousel {
+    
+    private var isFavoriteCurrentSign: Bool {
+        favoriteSigns.contains { $0.signNumber == selectionSign }
+    }
+    
+    private var heartButton: some View {
+        let isFavoriteCurrentSign = isFavoriteCurrentSign
+        
+        return Button {
+            isFavoriteCurrentSign ? removeFromFavorites() : addToFavorites()
+            
+        } label: {
+            Image(systemName: isFavoriteCurrentSign ? "heart.fill" : "heart")
+                .foregroundColor( isFavoriteCurrentSign ? .red : Color.accentColor)
+        }
+    }
+    
+    private func addToFavorites() {
+        print("добавление \(selectionSign)")
+        
+        let newFavoriteSign = FavoriteSignModel(context: moc)
+        newFavoriteSign.signNumber = selectionSign
+        newFavoriteSign.dateAdded = Date()
+        
+        try? moc.save()
+    }
+    
+    private func removeFromFavorites() {
+        print("Удаление \(selectionSign)")
+        let currentFavoriteSign = favoriteSigns.first { $0.signNumber == selectionSign }
+        guard let currentFavoriteSign = currentFavoriteSign else { return }
+        
+        moc.delete(currentFavoriteSign)
+        try? moc.save()
+    }
+    
+    private var trashButton: some View {
+        Button {
+            print("Удаление \(selectionSign)")
+        } label: {
+            Image(systemName: "trash")
+        }
+    }
+    
     private func saveCurrent(sign: String) {
         let newCurrentSign = CurrentSignModel(context: moc)
         newCurrentSign.category = categorySings.title
