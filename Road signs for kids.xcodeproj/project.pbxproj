@@ -16,6 +16,8 @@
 		3B45A1D4289E6E3F00EE4E98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B45A1D3289E6E3F00EE4E98 /* Preview Assets.xcassets */; };
 		3B45A1DD289E6F0D00EE4E98 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B45A1DC289E6F0D00EE4E98 /* PageView.swift */; };
 		3B45A1E0289E73F700EE4E98 /* SignModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B45A1DF289E73F700EE4E98 /* SignModel.swift */; };
+		3B6A78A428E21DE400968ED2 /* RoadSigns.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A78A228E21DE400968ED2 /* RoadSigns.xcdatamodeld */; };
+		3B6A78A728E21E3100968ED2 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A78A628E21E3100968ED2 /* DataController.swift */; };
 		3B70ECE228A9196C000FAB16 /* 4.4.2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B70ECCC28A9196B000FAB16 /* 4.4.2.m4a */; };
 		3B70ECE328A9196C000FAB16 /* 4.1.2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B70ECCD28A9196B000FAB16 /* 4.1.2.m4a */; };
 		3B70ECE428A9196C000FAB16 /* 4.6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3B70ECCE28A9196C000FAB16 /* 4.6.m4a */; };
@@ -631,6 +633,8 @@
 		3B45A1D3289E6E3F00EE4E98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B45A1DC289E6F0D00EE4E98 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		3B45A1DF289E73F700EE4E98 /* SignModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignModel.swift; sourceTree = "<group>"; };
+		3B6A78A328E21DE400968ED2 /* RoadSigns.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoadSigns.xcdatamodel; sourceTree = "<group>"; };
+		3B6A78A628E21E3100968ED2 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		3B70ECCC28A9196B000FAB16 /* 4.4.2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.4.2.m4a; sourceTree = "<group>"; };
 		3B70ECCD28A9196B000FAB16 /* 4.1.2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.1.2.m4a; sourceTree = "<group>"; };
 		3B70ECCE28A9196C000FAB16 /* 4.6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.6.m4a; sourceTree = "<group>"; };
@@ -1318,6 +1322,15 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		3B6A78A528E21E1B00968ED2 /* Datastore */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A78A228E21DE400968ED2 /* RoadSigns.xcdatamodeld */,
+				3B6A78A628E21E3100968ED2 /* DataController.swift */,
+			);
+			path = Datastore;
+			sourceTree = "<group>";
+		};
 		3BA08CE428A84FD900E83D21 /* 1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1998,6 +2011,7 @@
 		3BB2AF4228A8F5BE003565CF /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				3B6A78A528E21E1B00968ED2 /* Datastore */,
 				3BA08CE228A84A1C00E83D21 /* AudioPlayerService.swift */,
 				3B856152289F0CCA00644582 /* SpeechService.swift */,
 			);
@@ -2738,10 +2752,12 @@
 				3BA08CE128A8441000E83D21 /* SignCategoryList.swift in Sources */,
 				3BE599A128AD629700FC14AC /* SignModel+ProhibitionSigns.swift in Sources */,
 				3BE599AB28AD638E00FC14AC /* SignModel+SignsOfAdditionalInformation.swift in Sources */,
+				3B6A78A728E21E3100968ED2 /* DataController.swift in Sources */,
 				3BE599A728AD630D00FC14AC /* SignModel+InformationSigns.swift in Sources */,
 				3B15C64128A77E7F00A21194 /* SignCarousel.swift in Sources */,
 				3B45A1CF289E6E3E00EE4E98 /* ContentView.swift in Sources */,
 				3B45A1E0289E73F700EE4E98 /* SignModel.swift in Sources */,
+				3B6A78A428E21DE400968ED2 /* RoadSigns.xcdatamodeld in Sources */,
 				3BE599A928AD632F00FC14AC /* SignModel+ServiceSigns.swift in Sources */,
 				3BE5999D28AD622900FC14AC /* SignModel+WarningSigns.swift in Sources */,
 				3BBA143E289EB1C000BBA1CD /* SignCard.swift in Sources */,
@@ -2961,6 +2977,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B6A78A228E21DE400968ED2 /* RoadSigns.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B6A78A328E21DE400968ED2 /* RoadSigns.xcdatamodel */,
+			);
+			currentVersion = 3B6A78A328E21DE400968ED2 /* RoadSigns.xcdatamodel */;
+			path = RoadSigns.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3B45A1C1289E6E3E00EE4E98 /* Project object */;
 }
